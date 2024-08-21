@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1065436407901",
+    "project_id": "x7healthcare",
+    "storage_bucket": "x7healthcare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065436407901:android:60bd9f7931ff973a8605b4",
+        "android_client_info": {
+          "package_name": "com.example.roota"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065436407901-b0n8fenmt2e08nm67q0g5bj2qbvdfkn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGLt-sIgj0b0SlFNgGcF25M6BYCcW0Uno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065436407901-b0n8fenmt2e08nm67q0g5bj2qbvdfkn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
