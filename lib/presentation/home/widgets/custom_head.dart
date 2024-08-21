@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:rootaly_task/utils/color_theme.dart';
 
 class CustomChallange extends StatelessWidget {
    CustomChallange({
@@ -14,7 +15,7 @@ class CustomChallange extends StatelessWidget {
       child:    Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text(title,style: TextStyle(color: const Color.fromARGB(255, 7, 44, 75),fontWeight: FontWeight.w700,fontSize: 15),),
+            Text(title,style: TextStyle(color: ColorThemes.appTitleColor(),fontWeight: FontWeight.w700,fontSize: 15),),
         const    Row(children: [
               Text("View All"),
               SizedBox(width: 10,),

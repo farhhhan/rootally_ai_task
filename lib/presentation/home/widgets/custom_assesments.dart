@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rootaly_task/domain/assesment/assesment_model.dart';
 import 'package:rootaly_task/presentation/assestment/assesment_screen.dart';
+import 'package:rootaly_task/utils/color_theme.dart';
 
 class CustomAssesment extends StatelessWidget {
   CustomAssesment({required this.assesmentList, super.key});
@@ -13,8 +14,8 @@ class CustomAssesment extends StatelessWidget {
     final double screenHeight = MediaQuery.of(context).size.height;
 
     List colors = [
-      Color.fromARGB(255, 253, 235, 176),
-      Color.fromARGB(255, 181, 243, 183),
+      ColorThemes.lightOrange(),
+      ColorThemes.lightGreen(),
     ];
         List fits = [
      BoxFit.contain,

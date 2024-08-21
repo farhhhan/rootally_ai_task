@@ -28,17 +28,18 @@ class HomeSkell extends StatelessWidget {
               ],
             ),
           ),
-          SizedBox(height: 20,),
-           Padding(
+          SizedBox(
+            height: 20,
+          ),
+          Padding(
             padding: const EdgeInsets.symmetric(horizontal: 10),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-            
-              custom_skel(height: 30, width: 100),
-              
-              custom_skel(height: 30, width: 100),
-            ],),
+                custom_skel(height: 30, width: 100),
+                custom_skel(height: 30, width: 100),
+              ],
+            ),
           ),
           custom_skel(height: 170, width: 370),
           Padding(
@@ -46,22 +47,20 @@ class HomeSkell extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-            
-              custom_skel(height: 30, width: 100),
-              
-              custom_skel(height: 30, width: 100),
-            ],),
+                custom_skel(height: 30, width: 100),
+                custom_skel(height: 30, width: 100),
+              ],
+            ),
           ),
           Expanded(
             child: Padding(
-
               padding: const EdgeInsets.only(left: 10.0),
               child: ListView(
                 scrollDirection: Axis.horizontal,
-              children: [
-                custom_skel(height: 200, width: 300),
-                 custom_skel(height: 130, width: 200)
-              ],
+                children: [
+                  custom_skel(height: 200, width: 300),
+                  custom_skel(height: 130, width: 200)
+                ],
               ),
             ),
           )
